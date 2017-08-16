@@ -1,0 +1,47 @@
+	header {
+  		font-family: 'Times New Roman', 'Times', serif;
+        	color: black;
+	}
+
+	p {
+  		font-family: 'Times New Roman', 'Times', serif;
+        color: black;
+       	font-size: 25px;
+       	text-align: center
+       	style = "font-weight: bold";
+       	font:  bold 25px Georgia;
+	}
+
+	button {
+		background-color: #C0C0C0;
+    	border: none;
+    	color: white;
+    	padding: 10px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 16px;
+    	margin: 4px 2px;
+    	cursor: pointer;
+	}
+
+	button:hover {
+		background-color: #3e8e41
+	}
+
+    p.details {
+    	font-size: 25px;
+    	font-family: 'Times New Roman', 'Times', serif;
+       	color: #282828;
+       	text-align: center
+    }
+	a {
+ 		color: SeaGreen;
+  		text-decoration: none;
+
+	}
+	
+	img {
+  		/*border-radius: 20%;*/
+  		width: 50%;
+	}
