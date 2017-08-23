@@ -98,6 +98,10 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
+/*.profile-content ul li[data-type="facebook"]{
+  background-color: red;
+  list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif")
+}*/
 /*
 iframe {
 
@@ -139,28 +143,26 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  color: #fff;
-  text-align: center;
+  background-image:url(top_socials.png);
+  background-repeat:no-repeat;
+  height:30px;
+  width:30px;
+  display:block;
+  text-indent:-9999px;
+  text-align:left;
+  
 }
 .header .profile-content .social a:hover {
-  background: #778492;
+  background-position:0 -30px;
 }
 .header .profile-content .social a .fa {
-  font-size: 20px;
-  padding-top: 8px;
+  background-position:0 0;
 }
+
+/*.follow_us a.facebook {background-position:0 0;
+}
+.follow_us a.facebook:hover {background-position:0 -10px;
+}*/
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
