@@ -103,7 +103,7 @@ a.dotted-link:hover {
 .tab button {
 	width: 120px;
     background-color: #b1b7b0;
-    float: left;
+    float: center;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;*/
