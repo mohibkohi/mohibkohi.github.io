@@ -98,6 +98,35 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
+
+/* Style the buttons inside the tab */
+.tab button {
+	
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;*/
+    transition: 0.3s;
+    font-size: 17px;*/
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: green;
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: lightgreen;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+}
 /*.profile-content ul li[data-type="facebook"]{
   background-color: red;
   list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif")

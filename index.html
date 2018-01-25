@@ -25,6 +25,8 @@
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js"></script>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -60,109 +62,133 @@
                                     
                 </ul> 
                 <a href="./Resume.pdf" download="Resume">Resume</a>
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'About')">About Me</button>
+                    <button class="tablinks" onclick="openCity(event, 'Projects')">Latest Projects</button>
+                    <button class="tablinks" onclick="openCity(event, 'Work')">Work Experience</button>
+                    <button class="tablinks" onclick="openCity(event, 'Other')">Other Information</button>
+
+                </div>
             </div><!--//profile-->
             <!-- <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me -->              
         </div>
     </header><!--//header-->
     
     <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I am a graduate student from the University of Washington Tacoma with a Bachelors of Computer Science and Systems.</p>        
-        					<p>On my free time I enjoy hiking, playing pool and spending time with family and friends.</p>
-                         
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-    
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
-                        <div class="content">    
-                                               
-                            <div class="item featured text-center">
-                            	<a class="https://github.com/mohibkohi/gameoftrine" target="_blank">
-                                <h3 class="title"><a href="https://github.com/mohibkohi/gameoftrine" target="_blank">Game of Thrine</a></h3>
-                                <p class="summary">An online game.</p>
-                                <div class="featured-image">
-                                    <a href="https://github.com/mohibkohi/gameoftrine" target="_blank">
-                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
-                                    </a>
-                                    <div class="ribbon">
-                                        <div class="text">App</div>
-                                        </div>
-                                    </div>
-                                    
-                                <div class="desc text-left">                                    
-                                    <p>You can enjoy playing this game by choosing one of three characters to explore and battle in the game, while collecting coins and enjoying the game structure.</p>
-                                <!-- </div> -->
-                                <!--//desc-->         
-                               <!--  <a class="btn btn-cta-secondary" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>  -->                
-                            </div><!--//item-->
-                            <hr class="divider" />
-                            <div class="item row">
-                                 <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/mohibkohi/PowerPaint" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-4.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/mohibkohi/PowerPaint" target="_blank">PowerPaint</a></h3>
-                                    <p> You can use this app to draw different objects with the use of a Pencil, Line, Rectangle or an Ellipse.</p> 
-                                    <p>PowerPaint is one of the only apps that focus on simplicity and ease of use, the user can easily explore menus and interface.</p>
-                                    <p><a class="more-link" href="https://github.com/mohibkohi/PowerPaint" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/mohibkohi/Tetris" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/mohibkohi/Tetris" target="_blank">Tetris</a></h3>
-                                    <p>You don't want to miss out on one of the best games of all time, now you can play Tetris with the great new features.</p>
-                                    <p> Keep your lines clear as you will be tested every level in the game and you can challenge yourself with options that Tetris has to offer.</p>
-                                    <p><a class="more-link" href="https://github.com/mohibkohi/Tetris" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/mohibkohi/Easy-Street" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/mohibkohi/Easy-Street" target="_blank">Easy Street</a></h3>
-                                    <p>Enjoy the great Easy Street with the rules that are lifelike. You will appreciate experiencing as some entities die and gets to come back to life.</p>
-                                    <p><a class="more-link" href="https://github.com/mohibkohi/Easy-Street" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                        </div><!--//content--> 
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Proctor - Shoreline Community College <span class="place"></a></span> <span class="year">(August, 2012 - June, 2016)</span></h3>
-                                <p>I was in charge of making schedules, proctoring students, scribe for students with disabilities, and work with vets on different projects.</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Supervisor - Johnny Rockets <span class="place"></a></span> <span class="year">(June, 2013 - July, 2014)</span></h3>
-                                <p>I was in charge of hiring, training new employees, managing staff, and restaurant orders.</p>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-               
-            </div>
+        <div class="row" >
 
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+
+            <!-- <div class="primary col-md-8 col-sm-12 col-xs-12"> -->
+
+                <!--About me tag -->
+                <div id="About" class="tabcontent">
+                    <section class="about section">
+                        <div class="section-inner">
+                            <h2 class="heading">About Me</h2>
+                            <div class="content">
+                                <p>I am a graduate student from the University of Washington Tacoma with a Bachelors of Computer Science and Systems.</p>        
+            					<p>On my free time I enjoy hiking, playing pool and spending time with family and friends.</p>
+                             
+                            </div><!--//content-->
+                        </div><!--//section-inner-->                 
+                    </section><!--//section-->
+                
+                </div>
+                <!-- End of About me Tag-->
+
+                <!-- Projects tab-->
+                <div id="Projects" class="tabcontent" style="display:none">
+
+                    <section class="latest section">
+                        <div class="section-inner">
+                            <h2 class="heading">Latest Projects</h2>
+                            <div class="content">    
+                                                   
+                                <div class="item featured text-center">
+                                	<a class="https://github.com/mohibkohi/gameoftrine" target="_blank">
+                                    <h3 class="title"><a href="https://github.com/mohibkohi/gameoftrine" target="_blank">Game of Thrine</a></h3>
+                                    <p class="summary">An online game.</p>
+                                    <div class="featured-image">
+                                        <a href="https://github.com/mohibkohi/gameoftrine" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
+                                        </a>
+                                        <div class="ribbon">
+                                            <div class="text">App</div>
+                                            </div>
+                                        </div>
+                                        
+                                    <div class="desc text-left">                                    
+                                        <p>You can enjoy playing this game by choosing one of three characters to explore and battle in the game, while collecting coins and enjoying the game structure.</p>
+                                    <!-- </div> -->
+                                    <!--//desc-->         
+                                   <!--  <a class="btn btn-cta-secondary" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>  -->                
+                                </div><!--//item-->
+                                <hr class="divider" />
+                                <div class="item row">
+                                     <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/mohibkohi/PowerPaint" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="https://github.com/mohibkohi/PowerPaint" target="_blank">PowerPaint</a></h3>
+                                        <p> You can use this app to draw different objects with the use of a Pencil, Line, Rectangle or an Ellipse.</p> 
+                                        <p>PowerPaint is one of the only apps that focus on simplicity and ease of use, the user can easily explore menus and interface.</p>
+                                        <p><a class="more-link" href="https://github.com/mohibkohi/PowerPaint" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div><!--//desc-->                          
+                                </div><!--//item-->
+                                
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/mohibkohi/Tetris" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="https://github.com/mohibkohi/Tetris" target="_blank">Tetris</a></h3>
+                                        <p>You don't want to miss out on one of the best games of all time, now you can play Tetris with the great new features.</p>
+                                        <p> Keep your lines clear as you will be tested every level in the game and you can challenge yourself with options that Tetris has to offer.</p>
+                                        <p><a class="more-link" href="https://github.com/mohibkohi/Tetris" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div><!--//desc-->                          
+                                </div><!--//item-->
+                                
+                                <div class="item row">
+                                    <a class="col-md-4 col-sm-4 col-xs-12" href="https://github.com/mohibkohi/Easy-Street" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                    </a>
+                                    <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                        <h3 class="title"><a href="https://github.com/mohibkohi/Easy-Street" target="_blank">Easy Street</a></h3>
+                                        <p>Enjoy the great Easy Street with the rules that are lifelike. You will appreciate experiencing as some entities die and gets to come back to life.</p>
+                                        <p><a class="more-link" href="https://github.com/mohibkohi/Easy-Street" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                    </div><!--//desc-->                          
+                                </div><!--//item-->
+                                
+                            </div><!--//content--> 
+                        </div><!--//section-inner-->                 
+                    </section><!--//section-->
+                </div>
+                <!-- End of Projects tab-->
+
+                <!-- Work Experience-->
+                <div id="Work" class="tabcontent" style="display:none">
+                    <section class="experience section">
+                        <div class="section-inner">
+                            <h2 class="heading">Work Experience</h2>
+                            <div class="content">
+                                <div class="item">
+                                    <h3 class="title">Proctor - Shoreline Community College <span class="place"></a></span> <span class="year">(August, 2012 - June, 2016)</span></h3>
+                                    <p>I was in charge of making schedules, proctoring students, scribe for students with disabilities, and work with vets on different projects.</p>
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="title">Supervisor - Johnny Rockets <span class="place"></a></span> <span class="year">(June, 2013 - July, 2014)</span></h3>
+                                    <p>I was in charge of hiring, training new employees, managing staff, and restaurant orders.</p>
+                                </div><!--//item-->
+                                
+                            </div><!--//content-->  
+                        </div><!--//section-inner-->                 
+                    </section><!--//section-->
+                </div>
+                <!-- End of work Experience-->
+            <!-- </div> -->
+
+            <!-- <div class="secondary col-md-4 col-sm-12 col-xs-12"> -->
+            <div id="Other" class="tabcontent" style="display:none">
                  <aside class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Basic Information</h2>
@@ -270,7 +296,7 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li class="item"> 
-                                    <span class= "title">Game of Throne Theme</span></li>
+                                    <span class= "title">Game of Thrones Theme</span></li>
 
                                 <li class="item">
                                     <span class= "title">Ocean and Nature sounds</span></li>
@@ -281,10 +307,12 @@
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-               
- 
+                </aside><!--//section-->  
+            <!-- </div> --> 
+            </div>
+        </div>
+    </div>
+
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
