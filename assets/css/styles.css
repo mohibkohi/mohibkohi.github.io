@@ -101,8 +101,8 @@ a.dotted-link:hover {
 
 /* Style the buttons inside the tab */
 .tab button {
-	
-    background-color: inherit;
+	width: 120px;
+    background-color: #b1b7b0;
     float: left;
     outline: none;
     cursor: pointer;
