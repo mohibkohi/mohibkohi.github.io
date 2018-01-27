@@ -111,8 +111,8 @@ a.dotted-link:hover {
     margin-bottom: 20px;
     width: 25%;
 
-    /*font-size: 17px;
-    */
+    font-size: 17px;
+    
 }
 
 .tab button:hover {
