@@ -249,7 +249,7 @@ iframe {
   border-radius: 2px;
   background-color: #f5f5f5;
   border: none;
-  color: blue;
+  color: black;
   text-align: left;
   font-size: 28px;
   padding: 0px;
@@ -291,7 +291,7 @@ iframe {
 }*/
 /* ======= Sections======= */
 .sections-wrapper {
-  padding-top: 30px;
+  padding-top: -30px;
   padding-bottom: 30px;
 }
 .section {
