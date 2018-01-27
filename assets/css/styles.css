@@ -101,7 +101,7 @@ a.dotted-link:hover {
 
 .tablinks {
 	
-    background-color: #fff;
+    background-color: #a3c19e;
     color: black;
     float: left;
     border: none;
@@ -110,19 +110,17 @@ a.dotted-link:hover {
     padding: 14px  16px;
     margin-bottom: 20px;
     width: 25%;
-
+    font-weight: bold;
     font-size: 17px;
     
 }
 
 .tab button:hover {
-    background-color: green;
-
-
+    background-color: #a3c19e;
 }
 
-.tab button {
-    border: 1px solid black;
+.tab button.active {
+	background-color: #f5f5f5 ;
 }
 
 /* Style the tab content */
@@ -183,7 +181,7 @@ iframe {
 */
 /* ======= Header ======= */
 .header {
-  padding: 30px 0;
+  padding: 30px 0px;
   background: #f5f5f5;
   border-top: 10px solid #778492;
 }
@@ -193,20 +191,25 @@ iframe {
 }
 .header .profile-image {
   margin-right: 30px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-left: 15px;
 }
 .header .profile-content .name {
-  color: #49515a;
+  color: black;
+  font-family: "Lato", arial, sans-serif;
+
   font-size: 38px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 .header .profile-content .desc {
-  color: #0d182b;
+  color: black;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .header .profile-content .social a {
   background-image:url(top_socials.png);
@@ -224,6 +227,63 @@ iframe {
 .header .profile-content .social a .fa {
   background-position:0 0;
 }
+
+/*
+.header .profile-content .resume {
+	color: green;
+	font-size: 50px;
+
+  	font-family: "Lato", arial, sans-serif;
+  	font-weight: bold;
+  	margin-top: 0;
+  	margin-bottom: 5px;
+}
+
+.header .profile-content .resume:hover {
+	color: orange;
+	
+}*/
+
+.header .profile-content .resume {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #f5f5f5;
+  border: none;
+  color: blue;
+  text-align: left;
+  font-size: 28px;
+  padding: 0px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.header .profile-content .resume span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.header .profile-content .resume span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.header .profile-content .resume:hover span {
+  padding-right: 25px;
+}
+
+.header .profile-content .resume:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 /*.follow_us a.facebook {background-position:0 0;
 }
