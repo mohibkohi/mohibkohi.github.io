@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.0
  * Author: 3rd Wave Media
@@ -10,7 +10,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #a3c19e;
+  background: gray;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -100,8 +100,8 @@ a.dotted-link:hover {
 }
 
 .tablinks {
-	
-    background-color: #a3c19e;
+
+    background-color: gray;
     color: black;
     float: left;
     border: none;
@@ -112,15 +112,15 @@ a.dotted-link:hover {
     width: 25%;
     font-weight: bold;
     font-size: 17px;
-    
+
 }
 
 .tab button:hover {
-    background-color: #a3c19e;
+    background-color: white;
 }
 
 .tab button.active {
-	background-color: #f5f5f5 ;
+	background-color: white ;
 }
 
 /* Style the tab content */
@@ -182,26 +182,27 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0px;
-  background: #f5f5f5;
+  background: white;
   border-top: 10px solid #778492;
 }
 .header .btn {
   margin-top: 60px;
   font-weight: bold;
 }
+
 .header .profile-image {
   margin-right: 30px;
   margin-top: -30px;
   margin-bottom: -30px;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 .header .profile-content .name {
   color: black;
   font-family: "Lato", arial, sans-serif;
-
   font-size: 38px;
   margin-bottom: 0px;
   margin-top: 0px;
+  text-align: center;
 }
 .header .profile-content .desc {
   color: black;
@@ -219,7 +220,7 @@ iframe {
   display:block;
   text-indent:-9999px;
   text-align:left;
-  
+
 }
 .header .profile-content .social a:hover {
   background-position:0 -30px;
@@ -228,7 +229,7 @@ iframe {
   background-position:0 0;
 }
 
-/*
+
 .header .profile-content .resume {
 	color: green;
 	font-size: 50px;
@@ -241,13 +242,13 @@ iframe {
 
 .header .profile-content .resume:hover {
 	color: orange;
-	
-}*/
+
+}
 
 .header .profile-content .resume {
   display: inline-block;
   border-radius: 2px;
-  background-color: #f5f5f5;
+  background-color: white;
   border: none;
   color: black;
   text-align: left;
@@ -299,18 +300,20 @@ iframe {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background: #fff;
+  border-radius: 25px;
+  background: lightgray;
   padding: 20px;
 }
 .section .heading {
   margin-top: 0px;
   margin-bottom: 20px;
   color: black;
-  font-size: 24px;
+  font-size: 40px;
 }
 .section .content {
   margin-top: -10px;
   color: black;
+  font-size: 20px;
 }
 .section .content .more-link .fa {
   margin-right: 5px;
@@ -548,19 +551,20 @@ iframe {
   margin-bottom: 0;
 }
 .education .item .title {
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 0;
   color: black;
 }
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
-  font-size: 13px;
-  color: #999999;
+  font-size: 20px;
+  color: black;
   font-weight: 600;
   padding-left: 25px;
 }
 .education .item .university .year {
-  color: #b0b7bf;
+  color: black;
+  font-size: 20px;
   font-weight: 500;
 }
 /* Language Section */
@@ -571,7 +575,7 @@ iframe {
   color: black;
 }
 .languages .item .level {
-  color: #999999;
+  color: black;
 }
 .languages .item:last-child {
   margin-bottom: 0;
@@ -587,22 +591,23 @@ iframe {
 }
 
 /* ======= Footer ======= */
-.footer {
-  background: #32383e;
-  color: #fff;
-  padding: 10px 0;
+.footer-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
 }
-.footer .copyright {
-  line-height: 1.6;
-  color: #a1aab4;
-  font-size: 14px;
+
+.footer-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
 }
-.footer a {
-  color: #fff;
-}
-.footer .fa-heart {
-  color: #fb866a;
-}
+
+.footer{
+    background: lightgray;
+    
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .header {
@@ -624,6 +629,7 @@ iframe {
     margin-bottom: 15px;
   }
 }
+
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */

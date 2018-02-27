@@ -2,8 +2,7 @@
 //$(document).foundation();
 // Get the element with id="defaultOpen" and click on it
 // Get the element with id="defaultOpen" and click on it
-//document.getElementById("defaultOpen").click();
-function openCity(evt, cityName) {
+function openSection(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
     //alert("yes it is working");
@@ -24,3 +23,4 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
