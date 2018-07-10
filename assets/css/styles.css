@@ -301,8 +301,8 @@ iframe {
   color: #5f6b77;
 }
 .gameoftrine .img-responsive {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
 }
 
 .gameoftrine p{
@@ -316,8 +316,8 @@ iframe {
 }
 
 .PowerPaint .img-responsive {
-  height: 100%;
-  width: 100%;
+  height: 35%;
+  width: 35%;
 }
 
 .tetris p{
@@ -326,8 +326,8 @@ iframe {
 }
 
 .tetris .img-responsive {
-  height: 100%;
-  width: 100%;
+  height: 35%;
+  width: 35%;
 }
 
 .easyStreet{
@@ -336,8 +336,8 @@ iframe {
 }
 
 .easyStreet .img-responsive {
-  height: 100%;
-  width: 100%;
+  height: 35%;
+  width: 35%;
 }
 
 .experience .item {
