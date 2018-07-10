@@ -315,16 +315,30 @@ iframe {
   font-size: 30px;
 }
 
+.PowerPaint .img-responsive {
+  height: 100%;
+  width: 100%;
+}
+
 .tetris p{
   text-align: center;
   font-size: 30px;
 }
+
+.tetris .img-responsive {
+  height: 100%;
+  width: 100%;
+}
+
 .easyStreet{
   text-align: center;
   font-size: 30px;
 }
-/* Work Section */
 
+.easyStreet .img-responsive {
+  height: 100%;
+  width: 100%;
+}
 
 .experience .item {
   margin-bottom: 30px;
